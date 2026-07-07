@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Indie Comic Convention</title>
+    <script
+      src="https://kit.fontawesome.com/196d0ea57b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" class="styles" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="navbar-container">
+        <a href="index.html" class="Logo">Indie Comic Convention</a>
+
+        <i class="fa-solid fa-bars togglenav" onclick="toggleNav()"></i>
+
+        <div id="navlist" class="navlist">
+          <ul class="nav-item">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="event.html">Event</a></li>
+            <li><a href="volunteer.html">Volunteer</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="top-btn">
+      <a href="#">
+        <div>
+          <i class="fa-solid fa-arrow-up"></i>
+        </div>
+      </a>
+    </div>
+
+    <div class="all-event">
+      <section class="open-event">
+        <h2>Open Event</h2>
+        <table>
+          <tr>
+            <td>Artist Alley</td>
+            <td>
+              Artists/Artisans with skills ranging from amateur to professional
+              selling comic, accessories, wallpaper, and a variety of other
+              merch to display. We accept all styles of comic (American Comic,
+              Japanese Manga, Korean Manhwa, etc.), and welcome anyone who is
+              interested in applying to be a part of Artist Alley.
+            </td>
+          </tr>
+          <tr>
+            <td>Arcade Land</td>
+            <td>
+              Feel like taking a break? Enjoy some old fashion arcade games like
+              Metal Slug, Pac-Man, Time Crisis, House of the Dead, Street
+              Fighter, Tetris, Puzzle Bobble, and more.
+            </td>
+          </tr>
+        </table>
+      </section>
+
+      <section class="scheduled-event">
+        <h2>Scheduled Event</h2>
+        <table>
+          <tr>
+            <th>Event</th>
+            <th>Day</th>
+            <th>Hours</th>
+          </tr>
+          <tr>
+            <td>Comic 101</td>
+            <td>Friday, Saturday, Sunday</td>
+            <td>3:00pm - 6:00pm</td>
+          </tr>
+          <tr>
+            <td>Startup Workshop</td>
+            <td>Friday, Saturday, Sunday</td>
+            <td>5:00pm - 8:00pm</td>
+          </tr>
+          <tr>
+            <td>Rising Talent Promotion</td>
+            <td>Friday, Saturday, Sunday</td>
+            <td>6:00pm - 9:00pm</td>
+          </tr>
+        </table>
+      </section>
+
+      <div class="event-list">
+        <p>
+          <span>Comic 101:</span> To help new talent gain the courage to take
+          the first step into being a comic creator, we have invited a panel of
+          creators with diverse level of experience and skills, and have them
+          share where their journey began and how they made their dreams come
+          true.
+        </p>
+        <p>
+          <span>Startup Workshop:</span> Don't know where to start? We'll show
+          you the way! With our Startup Workshop, we will teach you the arts and
+          craft of basic story structure, character design, printing process,
+          and how to pitch and sell your creativity to the world.
+        </p>
+        <p>
+          <span>Rising Talent Promotion:</span> New talents in the world of
+          comic will be given an opportunity to have their work displayed and
+          promoted to everyone attending our event. We will be promoting your
+          name and your works to every backer and supporter we can appeal to and
+          bring you great success in your endeavor as a comic creator.
+        </p>
+      </div>
+    </div>
+
+    <section class="contactus">
+      <form action="#" method="post">
+        <h1>Contact Form</h1>
+        <div class="contactform">
+          <div class="inputbox">
+            <label>First Name</label>
+            <input type="text" placeholder="First Name" required />
+          </div>
+
+          <div class="inputbox">
+            <label>Last Name</label>
+            <input type="text" placeholder="Last Name" required />
+          </div>
+
+          <div class="inputbox">
+            <label>Email</label>
+            <input type="email" placeholder="Email" required />
+          </div>
+
+          <div class="inputbox">
+            <label>Message</label>
+            <textarea placeholder="Message" required></textarea>
+          </div>
+
+          <div class="inputbox">
+            <input type="Submit" value="Send" />
+          </div>
+        </div>
+      </form>
+    </section>
+
+    <footer>
+      <div class="footerlink-group">
+        <div class="social-link">
+          <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-youtube"></i></a>
+          <a href=""><i class="fa-brands fa-codepen"></i></a>
+          <a href=""><i class="fa-brands fa-github"></i></a>
+        </div>
+
+        <div class="nav-footer">
+          <a href="index.html">Home </a> | <a href="event.html">Event </a> |
+          <a href="volunteer.html">Volunteer </a>
+        </div>
+
+        <h6>Copyright © 2026, James Taylor</h6>
+      </div>
+    </footer>
+
+    <script>
+      function toggleNav() {
+        const navlist = document.getElementById("navlist");
+        navlist.classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>

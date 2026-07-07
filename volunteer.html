@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Indie Comic Convention</title>
+    <script
+      src="https://kit.fontawesome.com/196d0ea57b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" class="styles" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="navbar-container">
+        <a href="index.html" class="Logo">Indie Comic Convention</a>
+
+        <i class="fa-solid fa-bars togglenav" onclick="toggleNav()"></i>
+
+        <div id="navlist" class="navlist">
+          <ul class="nav-item">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="event.html">Event</a></li>
+            <li><a href="volunteer.html">Volunteer</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="top-btn">
+      <a href="#">
+        <div>
+          <i class="fa-solid fa-arrow-up"></i>
+        </div>
+      </a>
+    </div>
+
+    <div class="join-us">
+      <h2>Want to be part of the event? Join us!</h2>
+      <a href="#" class="btn">Register</a>
+    </div>
+
+    <div class="policy-list">
+      <h3>Policy</h3>
+      <p>
+        *** We run a family-friendly event for all ages and do not condone or
+        promote content that would be visually gory, sexually explicit, and
+        hyper violent. Attendee who violate of this policy will be removed and
+        barred from convention.
+      </p>
+      <h3>Attendee</h3>
+      <p>
+        After registration is submitted and approved, you will officially be
+        invited as an anttendee of the Indie Comic Convention. Attendees of the
+        event are held to a standard of fulfilling their assigned duties and
+        responsibilites during convention hours and will be compensated for
+        their time and effort after the entire convention is concluded.
+      </p>
+
+      <h3>Cancellation</h3>
+      <p>
+        If an applicant cannot participate in the Indie Comic Convention under
+        any circumstances, please contact us via email or contact form below as
+        soon as possible so that we may cancel your application and provide an
+        open slot to the next applicant. No fines will be imposed as long as
+        cancellation was made 60 days before the start of the convention.
+      </p>
+
+      <h3>Rules of Conduct</h3>
+      <p>
+        Our objective for the Indie Comic Convention is to provide a friendly,
+        safe, and welcoming environment for everyone attending our event. We
+        want everyone to have a wonderful experience and to not feel discouraged
+        from enjoying everything all of our events have to offer. We believe
+        that everyone who attend our convention should be treated with upmost
+        respect and courtesy. Any potential danger that might occur in sight
+        must be reported to the nearest security staff, so that the threat can
+        be handled immediately and prevent further escalation.
+      </p>
+    </div>
+
+    <section class="contactus">
+      <form action="#" method="post">
+        <h1>Contact Form</h1>
+        <div class="contactform">
+          <div class="inputbox">
+            <label>First Name</label>
+            <input type="text" placeholder="First Name" required />
+          </div>
+
+          <div class="inputbox">
+            <label>Last Name</label>
+            <input type="text" placeholder="Last Name" required />
+          </div>
+
+          <div class="inputbox">
+            <label>Email</label>
+            <input type="email" placeholder="Email" required />
+          </div>
+
+          <div class="inputbox">
+            <label>Message</label>
+            <textarea placeholder="Message" required></textarea>
+          </div>
+
+          <div class="inputbox">
+            <input type="Submit" value="Send" />
+          </div>
+        </div>
+      </form>
+    </section>
+
+    <footer>
+      <div class="footerlink-group">
+        <div class="social-link">
+          <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-youtube"></i></a>
+          <a href=""><i class="fa-brands fa-codepen"></i></a>
+          <a href=""><i class="fa-brands fa-github"></i></a>
+        </div>
+
+        <div class="nav-footer">
+          <a href="index.html">Home </a> | <a href="event.html">Event </a> |
+          <a href="volunteer.html">Volunteer </a>
+        </div>
+
+        <h6>Copyright © 2026, James Taylor</h6>
+      </div>
+    </footer>
+
+    <script>
+      function toggleNav() {
+        const navlist = document.getElementById("navlist");
+        navlist.classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>

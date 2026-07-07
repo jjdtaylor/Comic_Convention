@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Indie Comic Convention</title>
+    <script
+      src="https://kit.fontawesome.com/196d0ea57b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" class="styles" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="navbar-container">
+        <a href="index.html" class="Logo">Indie Comic Convention</a>
+
+        <i class="fa-solid fa-bars togglenav" onclick="toggleNav()"></i>
+
+        <div id="navlist" class="navlist">
+          <ul class="nav-item">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="event.html">Event</a></li>
+            <li><a href="volunteer.html">Volunteer</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="top-btn">
+      <a href="#">
+        <div>
+          <i class="fa-solid fa-arrow-up"></i>
+        </div>
+      </a>
+    </div>
+
+    <section class="banner">
+      <div class="banner-container">
+        <div class="banner-content">
+          <h1>Welcome to the Indie Comic Convention</h1>
+          <h2>June 5th - June 7th, 2027</h2>
+          <p><span>Ticket price:</span> $5</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="AboutUs">
+      <div class="AU-container">
+        <div class="AU-content">
+          <h2>About Us</h2>
+          <p>
+            We are a brand new convention that will make our debut in the year
+            2027, our sole reason for existing is to find and introduce new
+            talents into the world of comics and give them a place to create
+            connections, build portfolios, and stand out in the competitive
+            market of the comic industry. We accept and invite all kinds of
+            comic from American comic, Japanese manga, Chinese manhua, Korean
+            manhwa, and more. Whether you're an amateur or a professional;
+            everyone is welcome to join us as we aspire for all comic creator to
+            elevate each other and create a space for next generation of comic
+            creators to prosper, while upholding the spirit and purpose of Indie
+            Comic Convention for the following years to come.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contactus">
+      <form action="#" method="post">
+        <h1>Contact Form</h1>
+        <div class="contactform">
+          <div class="inputbox">
+            <label>First Name</label>
+            <input type="text" placeholder="First Name" required />
+          </div>
+
+          <div class="inputbox">
+            <label>Last Name</label>
+            <input type="text" placeholder="Last Name" required />
+          </div>
+
+          <div class="inputbox">
+            <label>Email</label>
+            <input type="email" placeholder="Email" required />
+          </div>
+
+          <div class="inputbox">
+            <label>Message</label>
+            <textarea placeholder="Message" required></textarea>
+          </div>
+
+          <div class="inputbox">
+            <input type="Submit" value="Send" />
+          </div>
+        </div>
+      </form>
+    </section>
+
+    <footer>
+      <div class="footerlink-group">
+        <div class="social-link">
+          <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-youtube"></i></a>
+          <a href=""><i class="fa-brands fa-codepen"></i></a>
+          <a href=""><i class="fa-brands fa-github"></i></a>
+        </div>
+
+        <div class="nav-footer">
+          <a href="index.html">Home </a> | <a href="event.html">Event </a> |
+          <a href="volunteer.html">Volunteer </a>
+        </div>
+
+        <h6>Copyright © 2026, James Taylor</h6>
+      </div>
+    </footer>
+
+    <script>
+      function toggleNav() {
+        const navlist = document.getElementById("navlist");
+        navlist.classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>
